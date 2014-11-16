@@ -329,6 +329,11 @@ a.show-sidebar:hover {
   color:#AA8383;
   margin-bottom: -4px;
 }
+
+.user-mini span:hover {
+    color:#FFF;  /* 鼠标滑过用户名时颜色变为白色 */
+}
+
 .user-mini > span.welcome {
   font-weight: bold;
   margin-top: 2px;
