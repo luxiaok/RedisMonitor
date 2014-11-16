@@ -212,7 +212,7 @@ a.show-sidebar:hover {
 #search > input + i {
   opacity:0;
   position: absolute;
-  top: 18px;
+  top: 8px;   /* 修复搜索栏图标不居中问题，原大小为18px */
   right: 10px;
   color: #fff;
 }
