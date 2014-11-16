@@ -54,9 +54,17 @@ line-height: 50px;
 .body-expanded .navbar {
   z-index: 9;
 }
+
+/* 修复social链接不居中问题 */
+.social_mid {
+    margin-top: 13px;
+}
+
+
 a.show-sidebar {
   float: left;
   margin-left: 15px;
+  margin-top: 13px; /* 修复面包屑导航按钮垂直居中问题 */
   color:#9B9B9B;
   outline: none;
   -webkit-transition: 0.2s;
@@ -182,6 +190,7 @@ a.show-sidebar:hover {
 }
 #search {
   position: relative;
+  margin-top: 10px; /* 修复搜索栏不居中问题 */
 }
 #search > input {
   width: 80%;
