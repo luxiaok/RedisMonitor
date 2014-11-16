@@ -4,7 +4,8 @@
 from application.main import *
 
 class LoginHandler(BaseHandler):
-    def get(self):
+    def get(self,*args):
+        #print args # 传入了一个login的参数进来了
         self.render2("login.html")
 
     def post(self):
