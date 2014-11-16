@@ -63,8 +63,8 @@ line-height: 50px;
 
 a.show-sidebar {
   float: left;
-  margin-left: 15px;
-  margin-top: 13px; /* 修复面包屑导航按钮垂直居中问题 */
+  margin-right: 10px;
+  margin-top: 18px; /* 修复面包屑导航按钮垂直居中问题 */
   color:#9B9B9B;
   outline: none;
   -webkit-transition: 0.2s;
@@ -225,6 +225,52 @@ a.show-sidebar:hover {
   transition-delay:0.2s;
   transition-duration: 0.2s;
 }
+
+/* 面包屑导航 */
+#breadcrumb2 {
+  padding: 0;
+  color: #FFF;
+  /* line-height: 40px;  */
+  /* background: #353535; */
+  /* margin-bottom: 30px;*/
+}
+
+#breadcrumb2 a {
+    color:#CBCBCB;
+    text-decoration: none;
+}
+
+#breadcrumb2 a:hover {
+    color:#FFF;
+}
+
+#breadcrumb2 li {
+    list-style:none;
+    float:left;
+    /* padding-left: 15px; */
+    /* border-right:1px solid #fff; */
+}
+
+.breadcrumb2 {
+  padding: 0;
+  background: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin: 0;
+}
+
+.breadcrumb2 > li + li:before {
+    color: #CCCCCC;
+    content: "/";
+    padding: 0 6px;
+}
+
+/* 新增 */
+.ajax-content {
+    margin-top: 10px;
+}
+
 .panel-menu {
   margin: 0;
 }
@@ -563,6 +609,11 @@ ul.DTTT_dropdown.dropdown-menu > li:hover > a {
   background:rgba(0, 0, 0, 0.3);
   color:#f0f0f0;
 }
+
+.dropdown-menu span:hover {  /* 右上角用户资料下拉菜单鼠标滑过颜色 */
+    color: #FFF;
+}
+
 .dataTables_wrapper input[type="text"] {
   display: block;
   width: 90%;
