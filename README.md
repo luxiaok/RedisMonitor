@@ -6,11 +6,11 @@ RedisMonitor
 Redis多实例集中管理与监控的开源解决方案
 
 
-## 【运维技术圈】微信公众号 ##
+## 【Python运维圈】微信公众号 ##
 
-![运维技术圈](https://github.com/luxiaok/SaltAdmin/raw/master/screenshot/ops_circle_qrcode.jpg)
+![Python运维圈](https://github.com/luxiaok/SaltAdmin/raw/master/screenshot/ops_circle_qrcode.jpg)
 
->也可以微信搜索 **运维技术圈**
+>也可以微信搜索 **Python运维圈**
 
 
 ## 技术交流QQ群 ##
